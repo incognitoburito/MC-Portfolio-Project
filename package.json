@@ -1,0 +1,24 @@
+{
+  "name": "mc-portfolio-project",
+  "version": "1.0.0",
+  "description": "Website checklist: -Dark theme -4 menus: Homepage, About us, Spiritual Tribe (forume), video library and merch -Homepage: -teaser trailer videos",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incognitoburito/MC-Portfolio-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/incognitoburito/MC-Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/incognitoburito/MC-Portfolio-Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
