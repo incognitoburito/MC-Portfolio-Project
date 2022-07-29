@@ -1,38 +1,29 @@
-body {
+body, html {
     font-family: "Open Sans", sans-serif;
-    background-image: url("/MC-Portfolio-Project/img/background3.png");
-    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400%;
+    line-height: 1.8em;
+    color: black
 }
 
-.img2 {
-    background-image: url("/MC-Portfolio-Project/img/background3.png");
-}
-#linear-gradient {
-    background: linear-gradient(black, white);
+.pimg1 {
+    background-image:url("/MC-Portfolio-Project/img/background3.png");
+    min-height: 100%;
 }
 
-h1, h2, h3 {
-    font-family: "Lobster", cursive;
-    margin-left: 0px;
+.pimg2 {
+    background-image:url("/MC-Portfolio-Project/img/background2.png");
+    min-height: 400px;
+}
+.pimg3 {
+    background-image:url("/MC-Portfolio-Project/img/background.png");
+    min-height: 400px;
 }
 
-h2 {
-    color: #3046C5;
-    
-}
-
-header h2 {
-    color: #CEC8FF;
-    
-}
-
-p {
-    margin-left: 20px;
-
-}
-
-.site-footer {
-    background-image: linear-gradient(red, orange, yellow, green,blue, indigo, violet);
+.footer {
+    background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
 
@@ -47,14 +38,6 @@ p {
     padding: 20px 0;
     border-bottom: 0px ridge;
     min-height: 165px;
-}
-
-.row-content2 {
-    padding: 20px 0;
-    border-bottom: 0px ridge;
-    min-height: 165px;
-    margin-left: 20px;
-    margin-right: 1200px;
 }
 
 .navbar {
